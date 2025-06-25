@@ -1,0 +1,55 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    /* フォントを指定 */
+    margin: 0;
+    /* ページの余白をなくす */
+    padding: 0;
+    /* ボックスの内側の余白をなくす */
+    background-color: #f4f4f4;
+    /* 背景色を設定 */
+    color: #333;
+    /* 文字色を設定 */
+    text-align: center;
+    /* テキストを中央揃えに */
+}
+
+header {
+    background-color: #4CAF50;
+    /* ヘッダーの背景色 */
+    color: white;
+    /* ヘッダーの文字色 */
+    padding: 1em 0;
+    /* ヘッダーの内側の余白 */
+}
+
+h1 {
+    margin: 0;
+    /* h1要素の余白をなくす */
+}
+
+main {
+    padding: 2em;
+    /* main要素の内側の余白 */
+}
+
+p {
+    line-height: 1.6;
+    /* 行の高さを設定 */
+}
+
+footer {
+    background-color: #333;
+    /* フッターの背景色 */
+    color: white;
+    /* フッターの文字色 */
+    padding: 1em 0;
+    /* フッターの内側の余白 */
+    position: fixed;
+    /* フッターを固定表示 */
+    width: 100%;
+    /* フッターの幅を100%に */
+    bottom: 0;
+    /* フッターを下端に配置 */
+}
